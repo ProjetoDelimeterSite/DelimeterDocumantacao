@@ -55,7 +55,7 @@
         <mxCell id="xxowK6_qFc57yZz3pFjM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="xxowK6_qFc57yZz3pFjM-2" source="xxowK6_qFc57yZz3pFjM-21" target="xxowK6_qFc57yZz3pFjM-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xxowK6_qFc57yZz3pFjM-21" value="Aceitar dieta" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="xxowK6_qFc57yZz3pFjM-2">
+        <mxCell id="xxowK6_qFc57yZz3pFjM-21" value="Aceitar agendamento de consulta" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="xxowK6_qFc57yZz3pFjM-2">
           <mxGeometry x="136" y="1325" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xxowK6_qFc57yZz3pFjM-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="xxowK6_qFc57yZz3pFjM-1" source="xxowK6_qFc57yZz3pFjM-37" target="xxowK6_qFc57yZz3pFjM-21">
@@ -90,7 +90,7 @@
         <mxCell id="xxowK6_qFc57yZz3pFjM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" edge="1" parent="xxowK6_qFc57yZz3pFjM-24" source="xxowK6_qFc57yZz3pFjM-36" target="xxowK6_qFc57yZz3pFjM-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xxowK6_qFc57yZz3pFjM-36" value="Ver a solicitação de consulta" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="xxowK6_qFc57yZz3pFjM-24">
+        <mxCell id="xxowK6_qFc57yZz3pFjM-36" value="Ver a solicitação de agendamento de consulta" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" vertex="1" parent="xxowK6_qFc57yZz3pFjM-24">
           <mxGeometry x="20" y="1170" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="xxowK6_qFc57yZz3pFjM-37" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="xxowK6_qFc57yZz3pFjM-24">
