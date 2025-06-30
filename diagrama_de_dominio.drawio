@@ -175,32 +175,23 @@
             <mxRectangle x="200" y="890" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-77" value="- paciente: Paciente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
+        <mxCell id="dieta-attr-1" value="- paciente: Paciente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-86" value="- nutricionista: Nutricionista" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
+        <mxCell id="dieta-attr-2" value="- nutricionista: Nutricionista" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-87" value="- tipoDieta: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
-          <mxGeometry y="78" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-88" value="- recomendacaoDiaria: double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
-          <mxGeometry y="104" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-89" value="- carboidratos: double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
-          <mxGeometry y="130" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-90" value="- proteinas: double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
-          <mxGeometry y="156" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-91" value="- gorduras: double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
+        <mxCell id="dieta-method-1" value="+ atualizarDieta(dados: Dieta): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
           <mxGeometry y="182" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-92" value="- recomendacoes: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
+        <mxCell id="dieta-method-2" value="+ consultarReceitas(): ListaReceitas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
           <mxGeometry y="208" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-78" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
-          <mxGeometry y="234" width="200" height="8" as="geometry" />
+        <mxCell id="dieta-method-3" value="+ adicionarReceita(r: Receita): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
+          <mxGeometry y="234" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="dieta-method-4" value="+ excluirReceita(id: int): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
+          <mxGeometry y="260" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="_E42kpqu97Q8NujoFVDA-97" target="_E42kpqu97Q8NujoFVDA-101">
           <mxGeometry relative="1" as="geometry" />
@@ -250,7 +241,7 @@
         <mxCell id="_E42kpqu97Q8NujoFVDA-109" value="- recomendacoes: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-101">
           <mxGeometry y="208" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-110" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-101">
+        <mxCell id="_E42kpqu97Q8NujoFVDA-78" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-101">
           <mxGeometry y="234" width="200" height="8" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="_E42kpqu97Q8NujoFVDA-55" target="_E42kpqu97Q8NujoFVDA-97">
@@ -310,6 +301,15 @@
           <mxGeometry y="52" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-139" value="- dataAlimento: Date" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-136">
+          <mxGeometry y="78" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_E42kpqu97Q8NujoFVDA-140" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-136">
+          <mxGeometry y="104" width="180" height="8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
           <mxGeometry y="78" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-140" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-136">
