@@ -34,7 +34,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-10" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
           <mxGeometry y="28" width="200" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-11" value="do / consultarDados()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-11" value="do / consultarHistoricoClinico()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
           <mxGeometry y="38" width="200" height="14" as="geometry" />
         </mxCell>
         <mxCell id="KEeP2pG8xLHkVEjHomZx-60" value="do / consultarRequisitosDieta()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
