@@ -67,21 +67,3 @@
     </mxGraphModel>
   </diagram>
 </mxfile>
-        <mxCell id="yfyngpZ6kTW5o_8SKnOL-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" parent="1" source="yfyngpZ6kTW5o_8SKnOL-23" target="yfyngpZ6kTW5o_8SKnOL-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yfyngpZ6kTW5o_8SKnOL-27" value="1.*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="yfyngpZ6kTW5o_8SKnOL-24" vertex="1" connectable="0">
-          <mxGeometry x="-0.794" y="1" relative="1" as="geometry">
-            <mxPoint x="-9" y="-3" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="yfyngpZ6kTW5o_8SKnOL-23" value="Refeição&lt;div&gt;diária&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="530" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="gZ_IPukIXz_eJjO1my4D-1" value="Diagrama conceitual" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=30;" vertex="1" parent="1">
-          <mxGeometry x="160" y="50" width="540" height="590" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
