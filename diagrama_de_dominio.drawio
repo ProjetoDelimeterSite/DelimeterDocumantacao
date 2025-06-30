@@ -37,15 +37,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-7" value="Nutricionista" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="-90" y="490" width="160" height="86" as="geometry">
+          <mxGeometry x="-190" y="500" width="270" height="190" as="geometry">
             <mxRectangle x="-90" y="490" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-8" value="- crm: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+          <mxGeometry y="26" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-10" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
+          <mxGeometry y="52" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-1" value="+ atualizarPaciente(p: Paciente): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="60" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-2" value="+ consultarDiario(p: Paciente): DiarioAlimentos" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="86" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-3" value="+ consultarDieta(p: Paciente): Dieta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="112" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-4" value="+ consultarConsultas(p: Paciente): ListaConsultas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="138" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-5" value="+ enviarNotificacao(p: Paciente): Notificacao" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="164" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="_E42kpqu97Q8NujoFVDA-14" target="_E42kpqu97Q8NujoFVDA-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -59,15 +74,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-14" value="Médico" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="490" width="170" height="80" as="geometry">
+          <mxGeometry x="1090" y="490" width="290" height="164" as="geometry">
             <mxRectangle x="899" y="490" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-15" value="- crm: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
-          <mxGeometry y="26" width="170" height="26" as="geometry" />
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-16" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
-          <mxGeometry y="52" width="170" height="8" as="geometry" />
+          <mxGeometry y="52" width="290" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="medico-method-1" value="+ atualizarPaciente(p: Paciente): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
+          <mxGeometry y="60" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="medico-method-2" value="+ consultarPaciente(id: int): Paciente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
+          <mxGeometry y="86" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="medico-method-3" value="+ consultarConsultas(p: Paciente): ListaConsultas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
+          <mxGeometry y="112" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="medico-method-4" value="+ enviarNotificacao(p: Paciente): Notificacao" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
+          <mxGeometry y="138" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-18" value="Endereco" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="267" width="160" height="120" as="geometry">
@@ -171,30 +198,30 @@
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-76" value="Dieta" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="890" width="200" height="268" as="geometry">
+          <mxGeometry x="200" y="890" width="250" height="220" as="geometry">
             <mxRectangle x="200" y="890" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="dieta-attr-1" value="- paciente: Paciente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-76" vertex="1">
-          <mxGeometry y="26" width="200" height="26" as="geometry" />
+          <mxGeometry y="26" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dieta-attr-2" value="- nutricionista: Nutricionista" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-76" vertex="1">
-          <mxGeometry y="52" width="200" height="26" as="geometry" />
+          <mxGeometry y="52" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-127" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-76" vertex="1">
-          <mxGeometry y="78" width="200" height="8" as="geometry" />
+          <mxGeometry y="78" width="250" height="8" as="geometry" />
         </mxCell>
         <mxCell id="dieta-method-4" value="+ excluirReceita(id: int): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-76" vertex="1">
-          <mxGeometry y="86" width="200" height="26" as="geometry" />
+          <mxGeometry y="86" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dieta-method-1" value="+ atualizarDieta(dados: Dieta): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-76" vertex="1">
-          <mxGeometry y="112" width="200" height="26" as="geometry" />
+          <mxGeometry y="112" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dieta-method-2" value="+ consultarReceitas(): ListaReceitas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-76" vertex="1">
-          <mxGeometry y="138" width="200" height="26" as="geometry" />
+          <mxGeometry y="138" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="dieta-method-3" value="+ adicionarReceita(r: Receita): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-76" vertex="1">
-          <mxGeometry y="164" width="200" height="26" as="geometry" />
+          <mxGeometry y="164" width="250" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=1;" parent="1" source="_E42kpqu97Q8NujoFVDA-97" target="_E42kpqu97Q8NujoFVDA-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -266,7 +293,7 @@
         <mxCell id="_E42kpqu97Q8NujoFVDA-133" value="- refeicaoDiaria: RefeicaoDiaria" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-118" vertex="1">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0wPFPpTT9udxWceNKwT1-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-118">
+        <mxCell id="0wPFPpTT9udxWceNKwT1-2" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-118" vertex="1">
           <mxGeometry y="78" width="200" height="8" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" parent="1" source="_E42kpqu97Q8NujoFVDA-129" target="_E42kpqu97Q8NujoFVDA-118" edge="1">
@@ -308,35 +335,6 @@
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-140" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-136" vertex="1">
           <mxGeometry y="104" width="180" height="8" as="geometry" />
-        </mxCell>
-        <!-- Funções para Nutricionista -->
-        <mxCell id="nutricionista-method-1" value="+ atualizarPaciente(p: Paciente): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
-          <mxGeometry y="70" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="nutricionista-method-2" value="+ consultarDiario(p: Paciente): DiarioAlimentos" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
-          <mxGeometry y="96" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="nutricionista-method-3" value="+ consultarDieta(p: Paciente): Dieta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
-          <mxGeometry y="122" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="nutricionista-method-4" value="+ consultarConsultas(p: Paciente): ListaConsultas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
-          <mxGeometry y="148" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="nutricionista-method-5" value="+ enviarNotificacao(p: Paciente): Notificacao" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
-          <mxGeometry y="174" width="160" height="26" as="geometry" />
-        </mxCell>
-        <!-- Funções para Médico -->
-        <mxCell id="medico-method-1" value="+ atualizarPaciente(p: Paciente): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
-          <mxGeometry y="70" width="170" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="medico-method-2" value="+ consultarPaciente(id: int): Paciente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
-          <mxGeometry y="96" width="170" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="medico-method-3" value="+ consultarConsultas(p: Paciente): ListaConsultas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
-          <mxGeometry y="122" width="170" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="medico-method-4" value="+ enviarNotificacao(p: Paciente): Notificacao" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
-          <mxGeometry y="148" width="170" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
