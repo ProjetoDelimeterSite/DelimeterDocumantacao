@@ -1,20 +1,32 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.1.6">
   <diagram name="Página-1" id="b-eg1-FrF9y84uEL_RRn">
-    <mxGraphModel dx="721" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
+    <mxGraphModel dx="567" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1Na_u8QP2jS8yMY4hHAe-1" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="70" width="80" height="80" as="geometry" />
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-1" value="Usuário" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1Na_u8QP2jS8yMY4hHAe-2" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="220" width="80" height="80" as="geometry" />
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="1Na_u8QP2jS8yMY4hHAe-2" target="1Na_u8QP2jS8yMY4hHAe-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Na_u8QP2jS8yMY4hHAe-3" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="414" y="220" width="80" height="80" as="geometry" />
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-2" value="Médico" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1Na_u8QP2jS8yMY4hHAe-4" value="Entity Object" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="220" width="80" height="80" as="geometry" />
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="1Na_u8QP2jS8yMY4hHAe-3" target="1Na_u8QP2jS8yMY4hHAe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-3" value="Nutricionista" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="1Na_u8QP2jS8yMY4hHAe-4" target="1Na_u8QP2jS8yMY4hHAe-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="149.9999999999999" as="targetPoint" />
+            <mxPoint x="740.0000432526185" y="269.9411764705883" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-4" value="Paciente" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
