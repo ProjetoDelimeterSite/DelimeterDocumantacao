@@ -153,7 +153,7 @@
             <mxPoint x="100" y="136" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HitS7uksx56XLU1VnVhu-7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HitS7uksx56XLU1Vhu-6" vertex="1" connectable="0">
+        <mxCell id="HitS7uksx56XLU1VnVhu-7" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HitS7uksx56XLU1VnVhu-6" vertex="1" connectable="0">
           <mxGeometry x="-0.1263" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -188,12 +188,6 @@
             <mxPoint x="145" y="283" as="sourcePoint" />
             <mxPoint x="145" y="203" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="exportar-relatorio" value="Exportar relatório" style="ellipse;whiteSpace=wrap;html=1;" parent="opuIpvQJVJ9zl-1Smfu1-45" vertex="1">
-          <mxGeometry x="200" y="850" width="140" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="edge-nutri-exportar" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" parent="1" source="opuIpvQJVJ9zl-1Smfu1-9" target="exportar-relatorio" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
