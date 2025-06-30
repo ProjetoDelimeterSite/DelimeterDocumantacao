@@ -48,7 +48,7 @@
             <mxRectangle x="270" y="-280" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="opuIpvQJVJ9zl-1Smfu1-7" value="Agendamento de atendimento" style="ellipse;whiteSpace=wrap;html=1;" parent="opuIpvQJVJ9zl-1Smfu1-45" vertex="1">
+        <mxCell id="opuIpvQJVJ9zl-1Smfu1-7" value="Registrar refeição diária" style="ellipse;whiteSpace=wrap;html=1;" parent="opuIpvQJVJ9zl-1Smfu1-45" vertex="1">
           <mxGeometry x="20" y="211" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="opuIpvQJVJ9zl-1Smfu1-13" value="Manter consulta" style="ellipse;whiteSpace=wrap;html=1;" parent="opuIpvQJVJ9zl-1Smfu1-45" vertex="1">
