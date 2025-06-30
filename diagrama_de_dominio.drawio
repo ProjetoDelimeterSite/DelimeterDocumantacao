@@ -4,19 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_E42kpqu97Q8NujoFVDA-1" value="Usuário
-- id: int
-- nome: String
-- email: String
-- senha: String
-- dataNascimento: Date
-- sexo: String
-- cpf: String
---------------------------
-+ autenticar(email: String, senha: String): boolean
-+ atualizarPerfil(dados: Usuario): void
-+ excluirConta(): void" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="230" width="180" height="220" as="geometry" />
+        <mxCell id="_E42kpqu97Q8NujoFVDA-1" value="Usuário" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="230" width="160" height="206" as="geometry">
+            <mxRectangle x="440" y="230" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-3" value="- nome: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-1">
           <mxGeometry y="20" width="160" height="26" as="geometry" />
@@ -45,18 +36,10 @@
         <mxCell id="_E42kpqu97Q8NujoFVDA-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_E42kpqu97Q8NujoFVDA-7" target="_E42kpqu97Q8NujoFVDA-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-7" value="Nutricionista
-- crn: String
-- especialidade: String
---------------------------
-+ cadastrarPaciente(p: Paciente): void
-+ atualizarPaciente(p: Paciente): void
-+ excluirPaciente(p: Paciente): void
-+ criarDieta(p: Paciente): Dieta
-+ atualizarDieta(d: Dieta): void
-+ cadastrarReceita(r: Receita): void
-+ gerarRelatorio(p: Paciente): Relatorio" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="490" width="200" height="220" as="geometry" />
+        <mxCell id="_E42kpqu97Q8NujoFVDA-7" value="Nutricionista" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="490" width="160" height="86" as="geometry">
+            <mxRectangle x="-90" y="490" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-8" value="- crm: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-7">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -75,15 +58,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-14" value="Médico
-- crm: String
-- especialidade: String
---------------------------
-+ cadastrarPaciente(p: Paciente): void
-+ atualizarPaciente(p: Paciente): void
-+ consultarPaciente(id: int): Paciente
-+ agendarConsulta(p: Paciente): Consulta" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="490" width="200" height="160" as="geometry" />
+        <mxCell id="_E42kpqu97Q8NujoFVDA-14" value="Médico" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="490" width="170" height="80" as="geometry">
+            <mxRectangle x="899" y="490" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-15" value="- crm: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-14">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
@@ -114,23 +92,10 @@
         <mxCell id="_E42kpqu97Q8NujoFVDA-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="_E42kpqu97Q8NujoFVDA-35" target="_E42kpqu97Q8NujoFVDA-118">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-35" value="Paciente
-- peso: double
-- altura: double
-- estiloVida: String
-- situacaoAlimentar: String
-- historicoClinico: String
-- alergiasIntolerancias: String
-- medicamentos: String
---------------------------
-+ calcularIMC(): double
-+ calcularGEB(): double
-+ atualizarDados(dados: Paciente): void
-+ consultarDiario(): DiarioAlimentos
-+ consultarDieta(): Dieta
-+ consultarConsultas(): List&lt;Consulta&gt;
-+ receberNotificacao(): Notificacao" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="435" y="490" width="360" height="340" as="geometry" />
+        <mxCell id="_E42kpqu97Q8NujoFVDA-35" value="Paciente" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="490" width="360" height="294" as="geometry">
+            <mxRectangle x="435" y="490" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-49" value="- /peso: double" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-35">
           <mxGeometry y="26" width="360" height="26" as="geometry" />
@@ -194,15 +159,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-67" value="Consulta Nutricionista
-- data: Date
-- horario: String
-- status: String
---------------------------
-+ agendar(p: Paciente, n: Nutricionista): void
-+ cancelar(): void
-+ atualizarStatus(status: String): void" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="490" width="200" height="140" as="geometry" />
+        <mxCell id="_E42kpqu97Q8NujoFVDA-67" value="Consulta Nutricionista" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="490" width="160" height="86" as="geometry">
+            <mxRectangle x="200" y="490" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-68" value="- crm: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-67">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -210,19 +170,10 @@
         <mxCell id="_E42kpqu97Q8NujoFVDA-69" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-67">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-76" value="Dieta
-- paciente: Paciente
-- nutricionista: Nutricionista
-- tipoDieta: String
-- recomendacaoDiaria: double
-- carboidratos: double
-- proteinas: double
-- gorduras: double
-- recomendacoes: String
---------------------------
-+ atualizarDieta(dados: Dieta): void
-+ consultarReceitas(): List&lt;Receita&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="890" width="220" height="220" as="geometry" />
+        <mxCell id="_E42kpqu97Q8NujoFVDA-76" value="Dieta" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="890" width="200" height="268" as="geometry">
+            <mxRectangle x="200" y="890" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-77" value="- paciente: Paciente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-76">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
@@ -259,14 +210,7 @@
             <mxPoint x="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-97" value="Consulta Médico
-- crm: String
-- especialidade: String
---------------------------
-+ cadastrarPaciente(p: Paciente): void
-+ atualizarPaciente(p: Paciente): void
-+ consultarPaciente(id: int): Paciente
-+ agendarConsulta(p: Paciente): Consulta" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="_E42kpqu97Q8NujoFVDA-97" value="Consulta Médico" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="490" width="160" height="86" as="geometry">
             <mxRectangle x="880" y="490" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -277,18 +221,7 @@
         <mxCell id="_E42kpqu97Q8NujoFVDA-99" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-97">
           <mxGeometry y="52" width="160" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-101" value="Dieta
-- paciente: Paciente
-- nutricionista: Nutricionista
-- tipoDieta: String
-- recomendacaoDiaria: double
-- carboidratos: double
-- proteinas: double
-- gorduras: double
-- recomendacoes: String
---------------------------
-+ atualizarDieta(dados: Dieta): void
-+ consultarReceitas(): List&lt;Receita&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="_E42kpqu97Q8NujoFVDA-101" value="Dieta" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="880" y="890" width="200" height="268" as="geometry">
             <mxRectangle x="200" y="890" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -328,12 +261,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-118" value="DiárioAlimentos
-- data: Date
---------------------------
-+ adicionarAlimento(a: Alimento): void
-+ consultarAlimentos(): List&lt;Alimento&gt;" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="900" width="200" height="100" as="geometry" />
+        <mxCell id="_E42kpqu97Q8NujoFVDA-118" value="Diário de Alimentos" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="840" width="200" height="268" as="geometry">
+            <mxRectangle x="200" y="890" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_E42kpqu97Q8NujoFVDA-119" value="- paciente: Paciente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-118">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_E42kpqu97Q8NujoFVDA-133" value="- refeicaoDiaria: RefeicaoDiaria" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-118">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_E42kpqu97Q8NujoFVDA-127" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-118">
+          <mxGeometry y="78" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_E42kpqu97Q8NujoFVDA-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="_E42kpqu97Q8NujoFVDA-129" target="_E42kpqu97Q8NujoFVDA-118">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-129" value="Refeição diária" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="1169" width="170" height="131" as="geometry">
@@ -371,32 +314,6 @@
         </mxCell>
         <mxCell id="_E42kpqu97Q8NujoFVDA-140" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="_E42kpqu97Q8NujoFVDA-136">
           <mxGeometry y="104" width="180" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-150" value="Receita
-- nome: String
-- ingredientes: String
-- modoPreparo: String
-- valorNutricional: String
---------------------------
-+ calcularValorNutricional(): String
-+ atualizarReceita(dados: Receita): void" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="900" width="200" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-160" value="Relatório
-- tipo: String
-- data: Date
-- conteudo: String
---------------------------
-+ gerarRelatorio(p: Paciente): String" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="1100" width="200" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="_E42kpqu97Q8NujoFVDA-170" value="Notificação
-- tipo: String
-- mensagem: String
-- data: Date
---------------------------
-+ enviarNotificacao(p: Paciente): void" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="1200" width="200" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
