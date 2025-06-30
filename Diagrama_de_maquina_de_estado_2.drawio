@@ -1,0 +1,138 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36 Edg/137.0.0.0" version="27.1.5">
+  <diagram name="Página-1" id="rkKA7PGFBK53Unndse4Z">
+    <mxGraphModel dx="819" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-1" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=22;" vertex="1" parent="1">
+          <mxGeometry x="512" y="123" width="200" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-2" value="Agenda" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-1">
+          <mxGeometry width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-3" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-1">
+          <mxGeometry y="20" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-4" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-1">
+          <mxGeometry y="28" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-5" value="do / consultarAgenda()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-1">
+          <mxGeometry y="38" width="200" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-6" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-1">
+          <mxGeometry y="52" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-7" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=22;" vertex="1" parent="1">
+          <mxGeometry x="826" y="123" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-8" value="BuscarHorarios" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-7">
+          <mxGeometry width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-9" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-7">
+          <mxGeometry y="20" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-10" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-7">
+          <mxGeometry y="28" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-11" value="do / consultarDiasLivres()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-7">
+          <mxGeometry y="38" width="200" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-60" value="do / consultarHorariosLivres()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-7">
+          <mxGeometry y="52" width="200" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-13" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-7">
+          <mxGeometry y="66" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEeP2pG8xLHkVEjHomZx-16" target="KEeP2pG8xLHkVEjHomZx-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-15" value="horarioInformado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KEeP2pG8xLHkVEjHomZx-14">
+          <mxGeometry x="-0.0971" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-16" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1204" y="124" width="200" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-17" value="SelecionarHorario" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-16">
+          <mxGeometry width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-18" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-16">
+          <mxGeometry y="20" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-19" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-16">
+          <mxGeometry y="28" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-20" value="entry / setEcho(off)" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-16">
+          <mxGeometry y="38" width="200" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-21" value="exit / setEcho(on)" style="html=1;align=left;spacingLeft=10;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-16">
+          <mxGeometry y="52" width="200" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-22" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-16">
+          <mxGeometry y="66" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEeP2pG8xLHkVEjHomZx-25" target="KEeP2pG8xLHkVEjHomZx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-24" value="solicitarAgendamento" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KEeP2pG8xLHkVEjHomZx-23">
+          <mxGeometry x="-0.2854" y="2" relative="1" as="geometry">
+            <mxPoint x="28" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-25" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="150" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-26" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=22;" vertex="1" parent="1">
+          <mxGeometry x="1204" y="364" width="200" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-27" value="RegistrandoHoarioConsulta" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-26">
+          <mxGeometry width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-28" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-26">
+          <mxGeometry y="20" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-29" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-26">
+          <mxGeometry y="28" width="200" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-30" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="KEeP2pG8xLHkVEjHomZx-26">
+          <mxGeometry y="38" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KEeP2pG8xLHkVEjHomZx-5" target="KEeP2pG8xLHkVEjHomZx-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-32" value="agendaValida" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KEeP2pG8xLHkVEjHomZx-31">
+          <mxGeometry x="-0.1719" relative="1" as="geometry">
+            <mxPoint x="6" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KEeP2pG8xLHkVEjHomZx-11" target="KEeP2pG8xLHkVEjHomZx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-34" value="horariosValidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KEeP2pG8xLHkVEjHomZx-33">
+          <mxGeometry x="-0.2112" y="1" relative="1" as="geometry">
+            <mxPoint x="20" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-35" value="" style="shape=mxgraph.sysml.actFinal;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1284" y="524" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-36" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1332" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="KEeP2pG8xLHkVEjHomZx-38" target="KEeP2pG8xLHkVEjHomZx-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-38" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1368" y="395" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEeP2pG8xLHkVEjHomZx-30" target="KEeP2pG8xLHkVEjHomZx-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-59" value="Diagrama de Maquina de Estado de Agendar Consulta" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=330;height=30;" vertex="1" parent="1">
+          <mxGeometry x="200" y="30" width="1320" height="680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
