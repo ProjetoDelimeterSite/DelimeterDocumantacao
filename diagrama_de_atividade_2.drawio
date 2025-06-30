@@ -44,10 +44,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xxowK6_qFc57yZz3pFjM-17" value="Pesquisar dias e/ou horário" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="xxowK6_qFc57yZz3pFjM-2" vertex="1">
-          <mxGeometry x="75" y="646" width="115" height="64" as="geometry" />
+          <mxGeometry x="70" y="646" width="115" height="64" as="geometry" />
         </mxCell>
         <mxCell id="xxowK6_qFc57yZz3pFjM-18" value="Escolher horário livre" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="xxowK6_qFc57yZz3pFjM-2" vertex="1">
-          <mxGeometry x="51.5" y="820" width="150" height="70" as="geometry" />
+          <mxGeometry x="52.5" y="820" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="xxowK6_qFc57yZz3pFjM-19" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" parent="xxowK6_qFc57yZz3pFjM-2" vertex="1">
           <mxGeometry x="190" y="1510" width="30" height="30" as="geometry" />
