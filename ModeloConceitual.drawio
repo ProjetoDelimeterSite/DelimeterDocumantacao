@@ -4,19 +4,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="1Na_u8QP2jS8yMY4hHAe-1" value="Usuário" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-1" value="Usuário&#10;- id: int&#10;- nome: string&#10;- email: string" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1Na_u8QP2jS8yMY4hHAe-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="1Na_u8QP2jS8yMY4hHAe-2" target="1Na_u8QP2jS8yMY4hHAe-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Na_u8QP2jS8yMY4hHAe-2" value="Médico" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-2" value="Médico&#10;- crm: string&#10;- especialidade: string" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1Na_u8QP2jS8yMY4hHAe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="1Na_u8QP2jS8yMY4hHAe-3" target="1Na_u8QP2jS8yMY4hHAe-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Na_u8QP2jS8yMY4hHAe-3" value="Nutricionista" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-3" value="Nutricionista&#10;- crn: string&#10;- especialidade: string" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1Na_u8QP2jS8yMY4hHAe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;" edge="1" parent="1" source="1Na_u8QP2jS8yMY4hHAe-4" target="1Na_u8QP2jS8yMY4hHAe-1">
@@ -25,7 +25,7 @@
             <mxPoint x="740.0000432526185" y="269.9411764705883" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Na_u8QP2jS8yMY4hHAe-4" value="Paciente" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="1Na_u8QP2jS8yMY4hHAe-4" value="Paciente&#10;- id: int&#10;- dataNascimento: date" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="320" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
