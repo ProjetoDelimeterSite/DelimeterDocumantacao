@@ -309,6 +309,35 @@
         <mxCell id="_E42kpqu97Q8NujoFVDA-140" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="_E42kpqu97Q8NujoFVDA-136" vertex="1">
           <mxGeometry y="104" width="180" height="8" as="geometry" />
         </mxCell>
+        <!-- Funções para Nutricionista -->
+        <mxCell id="nutricionista-method-1" value="+ atualizarPaciente(p: Paciente): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="70" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-2" value="+ consultarDiario(p: Paciente): DiarioAlimentos" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="96" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-3" value="+ consultarDieta(p: Paciente): Dieta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="122" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-4" value="+ consultarConsultas(p: Paciente): ListaConsultas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="148" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nutricionista-method-5" value="+ enviarNotificacao(p: Paciente): Notificacao" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-7" vertex="1">
+          <mxGeometry y="174" width="160" height="26" as="geometry" />
+        </mxCell>
+        <!-- Funções para Médico -->
+        <mxCell id="medico-method-1" value="+ atualizarPaciente(p: Paciente): void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
+          <mxGeometry y="70" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="medico-method-2" value="+ consultarPaciente(id: int): Paciente" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
+          <mxGeometry y="96" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="medico-method-3" value="+ consultarConsultas(p: Paciente): ListaConsultas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
+          <mxGeometry y="122" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="medico-method-4" value="+ enviarNotificacao(p: Paciente): Notificacao" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;" parent="_E42kpqu97Q8NujoFVDA-14" vertex="1">
+          <mxGeometry y="148" width="170" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
