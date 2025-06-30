@@ -7,7 +7,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-1" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=22;" parent="1" vertex="1">
           <mxGeometry x="512" y="123" width="200" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-2" value="Agenda" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-1" vertex="1">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-2" value="Dieta" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-1" vertex="1">
           <mxGeometry width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KEeP2pG8xLHkVEjHomZx-3" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="KEeP2pG8xLHkVEjHomZx-1" vertex="1">
@@ -16,7 +16,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-4" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-1" vertex="1">
           <mxGeometry y="28" width="200" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-5" value="do / consultarAgenda()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-1" vertex="1">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-5" value="do / consultarDietas()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-1" vertex="1">
           <mxGeometry y="38" width="200" height="14" as="geometry" />
         </mxCell>
         <mxCell id="KEeP2pG8xLHkVEjHomZx-6" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-1" vertex="1">
@@ -34,10 +34,10 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-10" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
           <mxGeometry y="28" width="200" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-11" value="do / consultarDiasLivres()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-11" value="do / consultarDados()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
           <mxGeometry y="38" width="200" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-60" value="do / consultarHorariosLivres()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-60" value="do / consultarRequisitosDieta()" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
           <mxGeometry y="52" width="200" height="14" as="geometry" />
         </mxCell>
         <mxCell id="KEeP2pG8xLHkVEjHomZx-13" value="" style="html=1;align=left;spacing=0;spacingLeft=10;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-7" vertex="1">
@@ -46,7 +46,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KEeP2pG8xLHkVEjHomZx-16" target="KEeP2pG8xLHkVEjHomZx-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-15" value="horarioInformado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEeP2pG8xLHkVEjHomZx-14" vertex="1" connectable="0">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-15" value="dietaInformada" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEeP2pG8xLHkVEjHomZx-14" vertex="1" connectable="0">
           <mxGeometry x="-0.0971" y="2" relative="1" as="geometry">
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -54,7 +54,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-16" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=22;" parent="1" vertex="1">
           <mxGeometry x="1204" y="124" width="200" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-17" value="SelecionarHorario" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-16" vertex="1">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-17" value="SelecionarDieta" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-16" vertex="1">
           <mxGeometry width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KEeP2pG8xLHkVEjHomZx-18" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="KEeP2pG8xLHkVEjHomZx-16" vertex="1">
@@ -75,7 +75,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="KEeP2pG8xLHkVEjHomZx-25" target="KEeP2pG8xLHkVEjHomZx-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-24" value="solicitarAgendamento" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEeP2pG8xLHkVEjHomZx-23" vertex="1" connectable="0">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-24" value="solicitarDieta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEeP2pG8xLHkVEjHomZx-23" vertex="1" connectable="0">
           <mxGeometry x="-0.2854" y="2" relative="1" as="geometry">
             <mxPoint x="28" y="1" as="offset" />
           </mxGeometry>
@@ -86,7 +86,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-26" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=22;" parent="1" vertex="1">
           <mxGeometry x="1204" y="364" width="200" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-27" value="RegistrandoHoarioConsulta" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-26" vertex="1">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-27" value="RegistrandoDieta" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" parent="KEeP2pG8xLHkVEjHomZx-26" vertex="1">
           <mxGeometry width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KEeP2pG8xLHkVEjHomZx-28" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="KEeP2pG8xLHkVEjHomZx-26" vertex="1">
@@ -101,7 +101,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KEeP2pG8xLHkVEjHomZx-5" target="KEeP2pG8xLHkVEjHomZx-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-32" value="agendaValida" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEeP2pG8xLHkVEjHomZx-31" vertex="1" connectable="0">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-32" value="dietaValida" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEeP2pG8xLHkVEjHomZx-31" vertex="1" connectable="0">
           <mxGeometry x="-0.1719" relative="1" as="geometry">
             <mxPoint x="6" y="-1" as="offset" />
           </mxGeometry>
@@ -109,7 +109,7 @@
         <mxCell id="KEeP2pG8xLHkVEjHomZx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KEeP2pG8xLHkVEjHomZx-11" target="KEeP2pG8xLHkVEjHomZx-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KEeP2pG8xLHkVEjHomZx-34" value="horariosValidos" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEeP2pG8xLHkVEjHomZx-33" vertex="1" connectable="0">
+        <mxCell id="KEeP2pG8xLHkVEjHomZx-34" value="dietasValidas" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEeP2pG8xLHkVEjHomZx-33" vertex="1" connectable="0">
           <mxGeometry x="-0.2112" y="1" relative="1" as="geometry">
             <mxPoint x="20" y="2" as="offset" />
           </mxGeometry>
