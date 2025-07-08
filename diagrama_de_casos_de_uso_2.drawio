@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.2.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0">
   <diagram name="Página-1" id="A4SRTEeQTM4OLtlpb145">
-    <mxGraphModel dx="1767" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
+    <mxGraphModel dx="2598" dy="2546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           <mxGeometry x="740" y="220" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="opuIpvQJVJ9zl-1Smfu1-12" value="Diagrama de Casos de Uso Agendar Consulta" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=300;height=50;" parent="1" vertex="1">
-          <mxGeometry x="-480" y="-360" width="1600" height="1150" as="geometry" />
+          <mxGeometry x="-480" y="-360" width="1320" height="840" as="geometry" />
         </mxCell>
         <mxCell id="opuIpvQJVJ9zl-1Smfu1-45" value="" style="swimlane;startSize=0;" parent="1" vertex="1">
           <mxGeometry x="-220" y="-200" width="800" height="610" as="geometry">
