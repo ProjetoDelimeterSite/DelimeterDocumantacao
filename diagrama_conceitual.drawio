@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="27.2.0">
   <diagram name="Página-1" id="nXQz9VLSLlL5GwqTy-l1">
-    <mxGraphModel dx="1678" dy="1592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
+    <mxGraphModel dx="2529" dy="2015" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,17 +19,17 @@
         <mxCell id="yfyngpZ6kTW5o_8SKnOL-5" value="Consulta&lt;div&gt;Nutricionista&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="145" y="40" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yfyngpZ6kTW5o_8SKnOL-6" value="Receita" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="195" width="100" height="100" as="geometry" />
+        <mxCell id="yfyngpZ6kTW5o_8SKnOL-6" value="Prescrição&lt;div&gt;Dieta&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="145" y="280" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yfyngpZ6kTW5o_8SKnOL-7" value="Métrica" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="360" width="100" height="100" as="geometry" />
+        <mxCell id="yfyngpZ6kTW5o_8SKnOL-7" value="Diário&lt;div&gt;Alimentar&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="280" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yfyngpZ6kTW5o_8SKnOL-8" value="Relatório" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="320" width="100" height="100" as="geometry" />
+        <mxCell id="yfyngpZ6kTW5o_8SKnOL-8" value="Prescrição&lt;div&gt;Dieta&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="510" y="280" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="yfyngpZ6kTW5o_8SKnOL-9" value="Notificação" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="484" width="100" height="100" as="geometry" />
+        <mxCell id="yfyngpZ6kTW5o_8SKnOL-9" value="Alimentos" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="720" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="rel1" style="endArrow=block;endFill=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="yfyngpZ6kTW5o_8SKnOL-1" target="yfyngpZ6kTW5o_8SKnOL-4" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -47,14 +47,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rel8" style="endArrow=block;endFill=0;" parent="1" source="yfyngpZ6kTW5o_8SKnOL-7" target="yfyngpZ6kTW5o_8SKnOL-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rel9" style="endArrow=block;endFill=0;" parent="1" source="yfyngpZ6kTW5o_8SKnOL-8" target="yfyngpZ6kTW5o_8SKnOL-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="gZ_IPukIXz_eJjO1my4D-1" value="Diagrama conceitual" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=150;height=30;" parent="1" vertex="1">
-          <mxGeometry x="-60" y="-260" width="900" height="870" as="geometry" />
+          <mxGeometry x="-60" y="-260" width="900" height="1090" as="geometry" />
         </mxCell>
         <mxCell id="q9Orycgps_jRyT9a8ur3-1" value="Endereço" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="546" y="-218" width="100" height="100" as="geometry" />
@@ -74,6 +68,85 @@
         <mxCell id="q9Orycgps_jRyT9a8ur3-4" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="q9Orycgps_jRyT9a8ur3-3" vertex="1" connectable="0">
           <mxGeometry x="0.694" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yfyngpZ6kTW5o_8SKnOL-5" target="yfyngpZ6kTW5o_8SKnOL-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="30" as="sourcePoint" />
+            <mxPoint x="295" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-2" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VEil41U8z-ARkg69Dfjp-1">
+          <mxGeometry x="0.6119" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-3" value="Consulta&lt;div&gt;Medico&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="40" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="yfyngpZ6kTW5o_8SKnOL-2" target="VEil41U8z-ARkg69Dfjp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="186" as="sourcePoint" />
+            <mxPoint x="465" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-5" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VEil41U8z-ARkg69Dfjp-4">
+          <mxGeometry x="-0.7328" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="yfyngpZ6kTW5o_8SKnOL-3" target="VEil41U8z-ARkg69Dfjp-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="119" as="sourcePoint" />
+            <mxPoint x="660" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-8" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VEil41U8z-ARkg69Dfjp-7">
+          <mxGeometry x="-0.5043" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="yfyngpZ6kTW5o_8SKnOL-5" target="yfyngpZ6kTW5o_8SKnOL-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="150" as="sourcePoint" />
+            <mxPoint x="305" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-10" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VEil41U8z-ARkg69Dfjp-9">
+          <mxGeometry x="-0.7804" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-11" value="Refeição&lt;div&gt;Diária&lt;/div&gt;" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VEil41U8z-ARkg69Dfjp-3" target="yfyngpZ6kTW5o_8SKnOL-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="150" as="sourcePoint" />
+            <mxPoint x="205" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-13" value="1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VEil41U8z-ARkg69Dfjp-12">
+          <mxGeometry x="-0.7804" relative="1" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="yfyngpZ6kTW5o_8SKnOL-2" target="yfyngpZ6kTW5o_8SKnOL-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="200" as="sourcePoint" />
+            <mxPoint x="385" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamondThin;endFill=0;" edge="1" parent="1" source="VEil41U8z-ARkg69Dfjp-11" target="yfyngpZ6kTW5o_8SKnOL-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="491" as="sourcePoint" />
+            <mxPoint x="370" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VEil41U8z-ARkg69Dfjp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="yfyngpZ6kTW5o_8SKnOL-9" target="VEil41U8z-ARkg69Dfjp-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="640" as="sourcePoint" />
+            <mxPoint x="410" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
